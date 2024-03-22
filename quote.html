@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+  <style>
+    #quote{
+        display: none;
+    }
+  </style>
+</head>
+<body>
+  <button onClick="displayQuote()">Show Quote in console</button>
+  <p id="quote">Talk is cheap Show me the code</p>
+</body>
+</html>
+<script>
+  //write js here
+  function displayQuote(){
+    console.log(document.getElementById("quote").innerText);
+  }
+</script>
